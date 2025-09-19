@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <form action="/" method="POST">
+        <div id="box">
+            <div class="txtContainer">
+                <h1 id="title1">Gaussian</h1>
+                <h1 id="title2">Matrix Solver</h1>
+                <p id="desc">Enter array inputs separated by spaces</p>
+                <textarea class="inputBox" name="matrix" rows="7" cols="25"></textarea><br>
+                <button class="subButton" id="solveBtn" type="submit">Solve</button>
+
+            </div>
+        </form>
+            <hr>
+            <div class="pwContainer">
+            <textarea class="outputBox" name="output" rows="7" cols="25" >{% if result is not none %}{{result}}{% endif %}
+            </textarea><br>
+
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
