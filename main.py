@@ -14,4 +14,4 @@ def index():
     return flask.render_template("index.html", result=result)
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5001)
+    app.run()
