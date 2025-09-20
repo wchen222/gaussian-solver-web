@@ -10,28 +10,29 @@ body {
     margin-bottom: 30px;
     height: 700px;
     width: 500px;
-    background-color: #ECFDF5;
+    background-color: #8BAAAD;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
+    border: 2px solid #4D4847;
 }
 
 #title1 {
-    color: #1C1C1C;
+    color: #000F08;
     font-weight: 800;
     margin: 0;
     text-align: center;
 }
 
 #title2 {
-    color: #10B981;
+    color: #000F08;
     font-weight: 800;
     margin: 0;
     text-align: center;
 }
 
 #desc {
-    color: #6B7280;
+    color: #4D4847;
     margin-top: 8px;
     text-align: center;
     
@@ -39,10 +40,10 @@ body {
 
 
 .subButton {
-    background-color: #10B981;
+    background-color: #1C3738;
     width: 191px;
     height: 42px;
-    color: white;
+    color: #F4FFF8;
     border-radius: 4px;
     border: none;
     padding: 0;
@@ -53,7 +54,7 @@ body {
 }
 
 .subButton:hover {
-    background-color: green;
+    background-color: #4D4847;
 }
 
 .pwTxt {
@@ -65,7 +66,7 @@ body {
 hr {
     width: 472px;
     height: 0px;
-    border-color: #D5D4D8;
+    border-color: #4D4847;
 }
 
 .pwContainer {
@@ -88,14 +89,18 @@ hr {
 }
 
 .inputBox {
-    background-color: lightblue;
-    color: black;
+    background-color: #F4FFF8;
+    color: #4D4847;
     font-size: 16px;
+    border-radius: 4px;
+    border: 2px solid #4D4847;
 }
 
 .outputBox {
     margin-top: 40px;
-    background-color: lightblue;
-    color: black;
+    background-color: #F4FFF8;
+    color: #4D4847;
     font-size: 16px;
+    border-radius: 4px;
+    border: 2px solid #4D4847;
 }
