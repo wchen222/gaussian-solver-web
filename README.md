@@ -1,8 +1,7 @@
 <h1>Gaussian Matrix Solver</h1>
-<h3>Automatic Gaussian Elimination Tool</h3>
-<h5>Built with numpy, flask, and html</h5>
+<p>Automatic Gaussian Elimination tool built with numpy, flask, and html</p>
 
-<br>
+<h2><a href="https://safe-yolane-wchen222-8cd7e4ee.koyeb.app">Website Link</a></h2>
 <h2>Directions</h2>
 
 <h3>Enter Matrix</h3>
