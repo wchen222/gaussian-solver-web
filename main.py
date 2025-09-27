@@ -12,6 +12,3 @@ def index():
         except ValueError:
             result = "Invalid input"
     return flask.render_template("index.html", result=result)
-
-if __name__ == "__main__":
-    app.run()
