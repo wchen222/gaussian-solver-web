@@ -2,6 +2,7 @@
 <p>Automatic Gaussian Elimination tool built with numpy, flask, and html</p>
 
 <h2><a href="https://safe-yolane-wchen222-8cd7e4ee.koyeb.app">Website Link</a></h2>
+<p>(May take a few seconds to load due to bootup)</p>
 <h2>Directions</h2>
 
 <h3>Enter Matrix</h3>
