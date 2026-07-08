@@ -1,5 +1,5 @@
 <h1>Gaussian Matrix Solver</h1>
-<p>Automatic Gaussian Elimination tool built with numpy, flask, and html</p>
+<p>Automatic Gaussian Elimination tool built from scratch with numpy, flask, and html</p>
 
 <h2><a href="https://safe-yolane-wchen222-8cd7e4ee.koyeb.app">Website Link</a></h2>
 <p>(May take a few seconds to load due to bootup)</p>
